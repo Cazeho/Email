@@ -4,7 +4,7 @@ from os import path
 
 outlook = win32com.client.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-#mail.To = 'romain.manuel22@gmail.com'#'romain.manuel@etu.univ-cotedazur.fr'
+#mail.To = ''
 #mail.Subject = 'Hello this is you!'
 #mail.Body = 'Hello!!!!!!'
 #mail.HTMLBody = '<h2>This is an H2 message</h2>' #this field is optional
